@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #162447;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    background-color: #1b1b2f;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #e43f5a;
+    padding: 20px 40px;
+}
+
+.nav-link:hover {
+    color: #ec798c;
+}
+
+.about {
+    background-color: #1f4068;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+
+
+.about-photo-itself {
+    border-radius: 50%;
+    border: 10px solid #162447;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text-header {
+    font-size: 40px;
+    color: #e43f5a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.about-text-par {
+    font-size: 20px;
+    color: white;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achievements-el {
+    padding: 50px 70px;
+}
+
+.achievements-el-logo-photo {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.achievements-el-text {
+    color: white;
+}
+
+.contact {
+    padding: 50px;
+}
+
+.contact-header {
+    font-size: 40px;
+    color: #e43f5a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contact-form-input-container {
+    margin-bottom: 20px;
+}
+
+.contact-form-input {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.contact-form-submit {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #e43f5a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.contact-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.contact-social-link {
+    background-color: #e43f5a;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-social-link:hover {
+    background-color: #ec798c;
+}
